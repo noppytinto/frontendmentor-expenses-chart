@@ -10,9 +10,9 @@
     margin-bottom: 1.5em;
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     &__title {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
   
@@ -30,7 +30,7 @@
     border-bottom-color: var(--color-neutral--cream);
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     &__week {
       gap: .5em;
     }
@@ -62,9 +62,9 @@
   
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     &__filling {
-      border-radius: .2em;
+      border-radius: .3em;
     }
   }
   
@@ -96,7 +96,7 @@
     text-align: center;
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     &__day-label {
       font-size: 0.8rem;
     }
@@ -124,6 +124,12 @@
   &__total-amount {
     font-size: 2.5rem;
     font-weight: bold;
+  }
+  
+  @media screen and (max-width: 450px) {
+    &__total-amount {
+      font-size: 2rem;
+    }
   }
   
   &__percentage {

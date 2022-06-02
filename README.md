@@ -1,5 +1,5 @@
 # VVV - LIVE DEMO - VVV 
-https://noppytinto.github.io/frontendmentor-expenses-chart-component/
+https://noppytinto.github.io/frontendmentor-expenses-chart/
 
 
 # Frontend Mentor - Expenses chart component

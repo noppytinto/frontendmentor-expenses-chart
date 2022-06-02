@@ -1,0 +1,19 @@
+:root {
+  // breakpoints
+  --breakpoint-mobile: 400px;
+  //--breakpoint-desktop: 1440px;
+  
+  // colors
+  --color-primary--soft-red: hsl(10, 79%, 65%);
+  --color-primary--cyan: hsl(186, 34%, 60%);
+  --color-neutral--dark-brown: hsl(25, 47%, 15%);
+  --color-neutral--medium-brown: hsl(28, 10%, 53%);
+  --color-neutral--cream: hsl(27, 66%, 92%);
+  --color-neutral--very-pale-orange: hsl(33, 100%, 98%);
+  
+  // typography
+  --font-family: 'DM Sans', sans-serif;
+  --font-family--url: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap';
+  --font-size: 18px;
+}
+

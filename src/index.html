@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- my assets -->
+
+</head>
+<body>
+
+  <article class="container">
+    <section class="balance">
+      <div class="balance__content">
+        <h1 class="balance__title">My balance</h1>
+        <p class="balance__amount">$921.48</p>
+      </div>
+
+      <div class="balance__decoration">
+        <div class="balance__circle balance__circle--outlined"></div>
+        <div class="balance__circle balance__circle--filled"></div>
+      </div>
+    </section>
+
+    <section class="chart">
+      <h1 class="chart__title">Spending - Last 7 days</h1>
+
+
+      <ul class="chart__week">
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="mon">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">mon</div>
+        </li>
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="tue">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">tue</div>
+        </li>
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="wed">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">wed</div>
+        </li>
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="thu">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">thu</div>
+        </li>
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="fri">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">fri</div>
+        </li>
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="sat">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">sat</div>
+        </li>
+        <li class="chart__day">
+          <div class="chart__gauge" data-day="sun">
+            <div class="chart__filling">
+              <p class="chart__hover-info hidden">$12.30</p>
+            </div>
+          </div>
+          <div class="chart__day-label">sun</div>
+        </li>
+
+      </ul>
+
+
+      <footer class="chart__footer">
+
+        <div class="chart__total">
+          <h2  class="chart__total-title">Total this month</h2>
+          <p  class="chart__total-amount">$478.33</p>
+        </div>
+
+        <div class="chart__percentage">
+          <div class="chart__percentage-value">+2.4%</div>
+          <div class="chart__percentage-label">from last month</div>
+        </div>
+
+
+      </footer>
+
+    </section>
+
+  </article>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">noppytinto</a>.
+  </div>
+</body>
+</html>

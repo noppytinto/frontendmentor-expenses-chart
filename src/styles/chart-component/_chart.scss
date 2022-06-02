@@ -1,0 +1,145 @@
+.chart {
+  padding: 2em;
+  border-radius: 1em;
+  color: var(--color-neutral--dark-brown);
+  background-color: var(--color-neutral--very-pale-orange);
+  
+  
+  &__title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5em;
+  }
+  
+  @media screen and (max-width: 400px) {
+    &__title {
+      font-size: 1.5rem;
+    }
+  }
+  
+  &__week {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    
+    list-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--color-neutral--cream);
+  }
+  
+  @media screen and (max-width: 400px) {
+    &__week {
+      gap: .5em;
+    }
+  }
+  
+  &__day {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  &__gauge {
+    height: 200px;
+    margin-bottom: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+  }
+  
+  &__filling {
+    border-radius: .5em;
+    background-color: var(--color-primary--soft-red);
+    position: relative;
+  
+  }
+  
+  @media screen and (max-width: 400px) {
+    &__filling {
+      border-radius: .2em;
+    }
+  }
+  
+  &__filling:hover {
+    opacity: .9;
+    cursor: pointer;
+    
+  }
+  
+  &__filling--max {
+    background-color: var(--color-primary--cyan);
+  }
+  
+  &__hover-info {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    padding: .4em .5em;
+    transform: translateY(-100%) translateX(-50%) ;
+    opacity: 1;
+    
+    color: #fff;
+    
+    border-radius: .2em;
+    background-color: var(--color-neutral--dark-brown);
+  }
+  
+  &__day-label {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 400px) {
+    &__day-label {
+      font-size: 0.8rem;
+    }
+  }
+  
+  
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  &__total-title {
+    margin-bottom: .5em;
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--color-neutral--medium-brown);
+  }
+  
+  &__total-amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  &__percentage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  &__percentage-value {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  &__percentage-label {
+    text-align: right;
+    color: var(--color-neutral--medium-brown);
+  }
+  
+}// .chart
